@@ -1,0 +1,42 @@
+<?php
+error_reporting(-1);
+//$helper = Mage::helper('news');
+$news = Mage::helper('news')->newsinapp();
+?>
+
+<table width="100%">
+
+    <tr width="100%">
+
+        <td>
+
+            <input name="site1" type="text"/>
+            <input type="submit" value="Update"/>
+
+            <iframe width="100%" height="700" src="http://drudgereport.com" frameborder="0"></iframe>
+
+        </td>
+
+
+        <td>
+
+            <input name="site2" type="text"/>
+            <input type="submit" value="Update"/>
+
+            <iframe width="100%" height="700" src="http://huffingtonpost.com" frameborder="0"></iframe>
+
+        </td>
+
+
+        <td>
+
+            <input name="site3" type="text"/>
+            <input type="submit" value="Update"/>
+
+            <iframe width="100%" height="700" src="http://cnn.com" frameborder="0"></iframe>
+
+        </td>
+    </tr>
+</table>
+
+
